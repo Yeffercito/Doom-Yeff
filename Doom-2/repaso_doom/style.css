@@ -1,0 +1,44 @@
+* {
+    padding: 0rem;
+    margin: 0rem;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+#bigbox,
+#formulario {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 1.25rem;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: black;
+    text-align: center;
+}
+
+table{
+    border: none;
+}
+
+th{
+    padding: 0.3125rem;
+}
+
+button {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0.625rem;
+    border: none;
+    border-radius: 0.3125rem;
+}
+
+#caja {
+    font-size: 1.25rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

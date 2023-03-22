@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="bigbox">
+        <div id="container">
+            <div>
+                <form>
+
+                    <div>
+                        <label for="name">Nombre:</label>
+                        <input class="inputs" type="text" id="name" name="user_name" required>
+                    </div>
+
+                    <div>
+                        <label for="lastname">Apellidos:</label>
+                        <input class="inputs" type="text" id="lastname" name="user_lastname" requierd>
+                    </div>
+
+                    <div>
+                        <label for="fechnaci">Fecha de nacimiento:</label>
+                        <input class="inputs" type="date" id="nacimiento" name="nacimiento" requierd>
+                    </div>
+
+                    <div>
+                        <label for="cedula">Cedula:</label>
+                        <input class="inputs" type="number" id="cedula" name="user_cedula" requierd>
+                    </div>
+                    <div>
+                        <input type="submit" value="Guardar" id="button">
+                    </div>
+                </form>
+            </div>
+            <div id="caja1">
+                <div>
+                    <input class="input" type="text">
+                    <input type="button" value="Buscar">
+                </div>
+                <div>
+                    <p style="color: black;">No hay nada xd</p>
+                </div>
+            </div>
+        </div>
+        <div id="container2">
+            <div id="caja2">
+                <table border="1" cellpadding="20" cellspacing="10" id="mi-tabla">
+                    <tbody id="tabla_body">
+                        <tr class="tr">
+                            <th>Nombre</th>
+                            <th>Cumpleaños</th>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="formulario.js"></script>
+</body>
+
+</html>
